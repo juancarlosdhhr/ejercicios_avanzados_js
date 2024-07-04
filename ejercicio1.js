@@ -35,11 +35,15 @@ const movies = [
   const MoviesByCategories = [];
 
   for (const movie of movies) {
-if (!MoviesByCategories.includes(movie.categories)) {
+    for (const category of movie.categories) {
+if (!MoviesByCategories.includes(category)) {
 
-    MoviesByCategories.push(movie.categories);
+    MoviesByCategories.push(category);
 }
 
+
   }
+
+}
 
   console.log(MoviesByCategories);
