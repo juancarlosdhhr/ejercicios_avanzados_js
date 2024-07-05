@@ -49,3 +49,8 @@ NumberOfSounds++;
 
 
 }
+
+const averageVolumes = TotalVolumes / NumberOfSounds
+
+console.log ("la media de volumen de todos los volumenes juntos es de:", averageVolumes);
+
