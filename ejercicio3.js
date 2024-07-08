@@ -62,3 +62,5 @@ NumberOfFavoriteSounds[sound] = 1;
 
 }
   }
+
+console.log (NumberOfFavoriteSounds);
