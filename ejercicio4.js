@@ -33,7 +33,9 @@ De nuevo haz varios ejemplos para practicar y comprueba que funcionan correctame
 
 
 function findArrayIndex(array, text) {
-    //Tu codigo
+
+  return array.indexOf(text);
+    
 }
 
 const mainCharacters = [
@@ -56,4 +58,9 @@ array.splice(index, 1);
 return array;
 }
 
-console.log (removeItem ([mainCharacters], "Luke"));
+console.log (removeItem ([...mainCharacters], "Leia"));
+console.log (removeItem ([...mainCharacters], "Rey"));
+console.log (removeItem ([...mainCharacters], "Anakin"));
+
+
+
